@@ -21,7 +21,7 @@ It contains the following sub projects:
 3) Embyronic Experiments - a commandline tool for running batches of experiments using the embyronic platform. It provides automated data pre-processing and outputs timelines of network graphs, and structural/performance statistics.
 
 
-## 1 - Cellular Automata##
+## 1 - Cellular Automata
 
 
 ##Prerequisites##
@@ -39,7 +39,7 @@ caBulkTests.py for batch experimentation,
 caModel.py for probabilistic model
 
 
-## 2 -  Embyronic Development##
+## 2 -  Embyronic Development
 
 ##Prerequisites##
 1) python3
@@ -66,7 +66,7 @@ caModel.py for probabilistic model
 6)  cellTest.py -> Start API
 
 
-## 3 - Embyronic Experiments##
+## 3 - Embyronic Experiments
 
 
 ##Prerequisites##
