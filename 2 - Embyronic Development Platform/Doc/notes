@@ -1,0 +1,26 @@
+##Embryonic Notes##
+
+Prerequisites
+
+1) python3-zmq
+2) python3-flask
+3) python3-flask-restful
+4) python3-flask-cors
+5) python3-mysql.connector
+6) mysqld
+
+  mysql -u root
+  GRANT ALL PRIVILEGES ON *.* TO 'emb'@'localhost' IDENTIFIED BY 'emb';
+  mysql -u emb -p
+  CREATE DATABASE embDebug;
+
+
+##Instructions##
+
+1) Rm events.db
+2) createMysqlServer.py
+2) Start debugServer.py
+4) frontEnd.py
+5) firefox http://127.0.0.1:5005/nodes
+6)  cellTest.py -> Start API
+

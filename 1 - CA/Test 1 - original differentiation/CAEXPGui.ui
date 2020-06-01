@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Toplevel" id="topLevel">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <child>
+      <object class="ttk.Label" id="Label_1">
+        <property name="text" translatable="yes">CA CLoud Resilience Experiment</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="simFrame">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">Simulation</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="padx">20</property>
+          <property name="pady">20</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+        <child>
+          <object class="tk.Canvas" id="canvas1">
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="runBtn">
+            <property name="command">onRunButton</property>
+            <property name="text" translatable="yes">Runs</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="pady">20</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="stepBtn">
+            <property name="command">onNextButton</property>
+            <property name="text" translatable="yes">Step</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="graphBtn">
+            <property name="command">onGraphButton</property>
+            <property name="text" translatable="yes">Show Graph</property>
+            <layout>
+              <property name="column">2</property>
+              <property name="ipadx">20</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Label" id="countLbl">
+            <property name="text" translatable="yes">Step : </property>
+            <layout>
+              <property name="column">2</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Labelframe" id="setupFrame">
+        <property name="height">200</property>
+        <property name="text" translatable="yes">Setup</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">16</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+        </layout>
+        <child>
+          <object class="tk.Scale" id="deathScale">
+            <property name="from_">0</property>
+            <property name="label" translatable="yes">Failure Rate</property>
+            <property name="orient">horizontal</property>
+            <property name="resolution">0.01</property>
+            <property name="to">1</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Scale" id="divScale">
+            <property name="from_">0</property>
+            <property name="label" translatable="yes">Division Rate</property>
+            <property name="orient">horizontal</property>
+            <property name="resolution">0.01</property>
+            <property name="to">1</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Spinbox" id="funcSpin">
+            <property name="from_">1</property>
+            <property name="increment">1</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">1</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="tk.Button" id="startBtn">
+            <property name="command">onStartButton</property>
+            <property name="text" translatable="yes">Start/Reset</property>
+            <layout>
+              <property name="column">1</property>
+              <property name="propagate">True</property>
+              <property name="row">2</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
