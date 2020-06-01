@@ -2,7 +2,7 @@
 
 This repository is for storing the project code and dataset links for the decentralised embryonic cloud proof-of-concept which was originally developed as part of my phd thesis. 
 
-##Datasets##
+## Datasets
 
 CA Datatset - https://drive.google.com/file/d/10-CRxde1WO5BocBaksTOJu-klJJvxmwL/view?usp=sharing
 
@@ -10,7 +10,7 @@ Embryonic No Failure Rate Tests - https://drive.google.com/file/d/164U1OI_qQ-phu
 
 Embryonic Failure Rate 0.01 Tests - https://drive.google.com/file/d/1C_S0y7MDfKgdN2gZeHRivyFKAGJL7jzJ/view?usp=sharing
 
-##Sub projects##
+## Sub projects
 
 It contains the following sub projects:
 
@@ -24,14 +24,14 @@ It contains the following sub projects:
 ## 1 - Cellular Automata
 
 
-##Prerequisites##
+### Prerequisites
 
 1) Python2
 2) Python2-pytk
 3) Python2-matplotlib
 4) python2-pygubu
 
-##Instructions##
+### Instructions
 
 Run:
 CAExperiment.py for GUI 
@@ -41,7 +41,7 @@ caModel.py for probabilistic model
 
 ## 2 -  Embyronic Development
 
-##Prerequisites##
+## Prerequisites 
 1) python3
 1) python3-zmq
 2) python3-flask
@@ -56,7 +56,7 @@ caModel.py for probabilistic model
   CREATE DATABASE embDebug;
 
 
-##Instructions##
+## Instructions 
 
 1) Rm events.db
 2) createMysqlServer.py
@@ -70,12 +70,12 @@ caModel.py for probabilistic model
 
 
 ##Prerequisites##
-1)python3
-2)python3-zmq
-3)python3-mysql.connector
-4)python3-networkx
-5)python3-matplotlib
-6)mysql
+1) python3
+2) python3-zmq
+3) python3-mysql.connector
+4) python3-networkx
+5) python3-matplotlib
+6) mysql
 
 
 ##Instructions##
