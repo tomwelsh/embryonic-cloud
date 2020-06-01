@@ -4,11 +4,11 @@ This repository is for storing the project code and dataset links for the decent
 
 ## Datasets
 
-CA Datatset - https://drive.google.com/file/d/10-CRxde1WO5BocBaksTOJu-klJJvxmwL/view?usp=sharing
+CA Datatset (200MB) - https://drive.google.com/file/d/10-CRxde1WO5BocBaksTOJu-klJJvxmwL/view?usp=sharing
 
-Embryonic No Failure Rate Tests - https://drive.google.com/file/d/164U1OI_qQ-phuxaZEH9pg2g-i8elil1O/view?usp=sharing
+Embryonic No Failure Rate Tests (3GB) - https://drive.google.com/file/d/164U1OI_qQ-phuxaZEH9pg2g-i8elil1O/view?usp=sharing
 
-Embryonic Failure Rate 0.01 Tests - https://drive.google.com/file/d/1C_S0y7MDfKgdN2gZeHRivyFKAGJL7jzJ/view?usp=sharing
+Embryonic Failure Rate 0.01 Tests (2GB) - https://drive.google.com/file/d/1C_S0y7MDfKgdN2gZeHRivyFKAGJL7jzJ/view?usp=sharing
 
 ## Sub projects
 
@@ -41,7 +41,7 @@ caModel.py for probabilistic model
 
 ## 2 -  Embyronic Development
 
-## Prerequisites 
+### Prerequisites 
 1) python3
 1) python3-zmq
 2) python3-flask
@@ -56,7 +56,7 @@ caModel.py for probabilistic model
   CREATE DATABASE embDebug;
 
 
-## Instructions 
+### Instructions 
 
 1) Rm events.db
 2) createMysqlServer.py
@@ -69,7 +69,7 @@ caModel.py for probabilistic model
 ## 3 - Embyronic Experiments
 
 
-##Prerequisites##
+### Prerequisites
 1) python3
 2) python3-zmq
 3) python3-mysql.connector
@@ -78,7 +78,7 @@ caModel.py for probabilistic model
 6) mysql
 
 
-##Instructions##
+### Instructions
 
 1) Check confirugation and then run experiments.py
 
