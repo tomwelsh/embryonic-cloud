@@ -1,17 +1,6 @@
 # Cellular Automata for embryonic architecture modelling.
 
 
-# Tom's riddle for the day:
-# If complex life exists in a state in which it computes universally but no one is there to write an algorithm > O(log(n)2)
-# complexity to analyse it, does a mathematician still try to formally proove its computability?
-#
-#This CA is us
-#
-#
-#
-#
-
-
 import random
 import Tkinter
 
